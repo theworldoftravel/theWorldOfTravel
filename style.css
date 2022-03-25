@@ -1,0 +1,165 @@
+body {
+    font-family: 'Poppins';
+    background-color: #111827 !important;
+    color: #FFFFFF !important;
+
+}
+
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 90%;
+    }
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.navbar {
+    /* margin: 0px 35px; */
+    padding: 0px 50px;
+    background-color: #111827 !important;
+
+}
+
+.navbar-logo {
+    border-radius: 50px;
+}
+
+.nav-item {
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.color {
+    color: #FFFFFF !important;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 57px;
+}
+
+
+/* Body */
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 80px;
+    color: #D963AE;
+
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 42px;
+}
+
+h3 {
+    font-size: 37px;
+    font-weight: 500;
+    line-height: 50px;
+    margin-top: 25px;
+}
+
+h4 {
+    color: #D963AE;
+}
+
+
+
+.packages {
+    background: linear-gradient(to right, #F5A018, #F5A018, #D963AE, #D963AE);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.hero-img {
+    width: 800px !important;
+}
+
+.lc {
+    color: red;
+}
+
+.tab-color {
+    color: #2a95b2;
+}
+
+.gp {
+    border-radius: 5px;
+}
+
+footer {
+    padding: 30px;
+    background-color: #0c121d !important;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .navbar-toggler {
+        background: #FFFFFF;
+        width: 45px;
+        height: 30px;
+        size: 20px;
+        display: flex;
+        align-items: center;
+        margin-left: -35px;
+        margin-top: 15px;
+
+    }
+
+    h1 {
+
+        font-size: 34px;
+        line-height: 40px;
+        display: flex;
+        justify-content: center;
+        
+
+    }
+
+    h2 {
+        font-weight: bold;
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 17px;
+        line-height: 30px;
+        margin: 0px 20px;
+
+    }
+
+    .gp {
+        width: 100px;
+        height: 75px;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .navbar-toggler {
+        background: #FFFFFF;
+        margin-left: -35px;
+        margin-top: 15px;
+    }
+
+
+}
+
+@media screen and (min-width: 576px) {
+    .textGradient {
+        background: linear-gradient(to right, #D963AE, #D963AE, #6B9AEC, #6B9AEC);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+}
