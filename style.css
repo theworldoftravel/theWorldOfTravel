@@ -10,7 +10,6 @@ body {
         max-width: 90%;
     }
 }
-
 .navbar-brand {
     display: flex;
     align-items: center;
@@ -72,7 +71,9 @@ h3 {
 h4 {
     color: #D963AE;
 }
-
+p{
+    overflow-wrap: break-word;
+}
 
 
 .packages {
@@ -82,7 +83,8 @@ h4 {
 }
 
 .hero-img {
-    width: 800px !important;
+    width: 550px !important;
+    border-radius: 50%;
 }
 
 .lc {
@@ -144,6 +146,12 @@ footer {
         height: 75px;
     }
 
+    .hero-img {
+        margin-top: 30px;
+        margin-left: 35px !important;
+        width: 270px !important;
+        border-radius: 50%;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -152,8 +160,6 @@ footer {
         margin-left: -35px;
         margin-top: 15px;
     }
-
-
 }
 
 @media screen and (min-width: 576px) {
@@ -162,4 +168,6 @@ footer {
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
     }
+    
+    
 }
